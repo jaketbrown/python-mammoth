@@ -1,0 +1,8 @@
+project: python-mammoth
+target: fuzz-python-mammoth
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /src/mayhem/fuzz_mammoth.py
+    libfuzzer: true
