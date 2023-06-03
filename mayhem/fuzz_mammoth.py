@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import atheris
 import sys
 import fuzz_helpers
